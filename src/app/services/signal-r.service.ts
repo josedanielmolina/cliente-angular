@@ -10,8 +10,8 @@ export class SignalRService {
     public hubConecction: HubConnection;
     public buffer: any[] = [];
 
-    //private urlWS = 'https://peliculasapi20210203134414.azurewebsites.net/test'
-    private urlWS =  'https://localhost:44354/pruebas'
+    private urlWS = 'https://socket-iac.azurewebsites.net/pruebas'
+    // private urlWS =  'https://localhost:44354/pruebas'
 
     constructor() {
         let builder = new HubConnectionBuilder();
