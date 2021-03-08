@@ -1,16 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
-import { GasesComponent } from './components/gases/gases.component';
-import { VisorComponent } from './components/visor/visor.component';
+import { VisorComponent } from './visor-mediciones/visor.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    GasesComponent,
     VisorComponent
+
   ],
   imports: [
     BrowserModule,

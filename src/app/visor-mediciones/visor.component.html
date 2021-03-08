@@ -1,0 +1,14 @@
+<h1>Visor</h1>
+
+<hr>
+
+<input style="margin-right: 10px;" type="button" value="Iniciar" (click)="iniciarPrueba()">
+<input style="margin-right: 10px;" type="button" value="Pausar" (click)="pausarPrueba()">
+<!-- <input style="margin-right: 10px;" type="button" value="Reset" (click)="reset()"> -->
+
+
+<hr>
+
+<div *ngFor="let item of buffer; index as i"> {{i+1}} -- {{item}} -- fechaFrontend = {{fechaFronted}}
+    <hr>
+</div>
